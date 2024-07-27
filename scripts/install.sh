@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set variables
-REPO="yourusername/your-repo-name"
-VENV_NAME="affinity_updater_env"
-SCRIPT_NAME="affinity_industry_updater.py"
+REPO="loolvc/affinity_classify"
+VENV_NAME="affinity_classify_env"
+SCRIPT_NAME="affinity_classify.py"
 
 # Check if Python is installed
 if ! command -v python3 &> /dev/null
