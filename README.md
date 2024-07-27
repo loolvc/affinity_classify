@@ -59,7 +59,8 @@ python affinity_industry_updater.py
       ]
     }
   ]
-}```
+}
+```
 
 
 4. Follow the prompts to confirm the organization and update the industry data.
