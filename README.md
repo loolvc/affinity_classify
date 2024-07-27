@@ -65,11 +65,12 @@ python affinity_industry_updater.py
 
 4. Follow the prompts to confirm the organization and update the industry data.
 
-Updating
+## Updating
 The script will automatically check for updates each time it runs. If a new version is available, it will download and install it automatically.
-Troubleshooting
 
-If you encounter any issues, try running the script with the debug flag: python affinity_industry_updater.py -d
+## Troubleshooting
+If you encounter any issues, try running the script with the debug flag: 
+`python affinity_industry_updater.py -d`
 Make sure your API key is correctly set either in the environment variable or in the config.ini file.
 Ensure you have an active internet connection.
 
