@@ -43,3 +43,37 @@ After installation, you need to set up your Affinity API key. You have two optio
    - On Windows: `affinity_updater_env\Scripts\activate.bat`
 
 2. Run the script:
+
+python affinity_industry_updater.py
+
+3. When prompted, paste your JSON data in the following format:
+```json
+{
+  "org_id": 294274304,
+  "Industries_Classification": [
+    {
+      "Industry": "Emerging Technologies",
+      "Sub-Industries": [
+        "Augmented reality (AR)",
+        "Semiconductors"
+      ]
+    }
+  ]
+}
+
+4. Follow the prompts to confirm the organization and update the industry data.
+
+Updating
+The script will automatically check for updates each time it runs. If a new version is available, it will download and install it automatically.
+Troubleshooting
+
+If you encounter any issues, try running the script with the debug flag: python affinity_industry_updater.py -d
+Make sure your API key is correctly set either in the environment variable or in the config.ini file.
+Ensure you have an active internet connection.
+
+## Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request.
+## License
+MIT License
+## Support
+If you encounter any problems or have any questions, please open an issue in the GitHub repository.
