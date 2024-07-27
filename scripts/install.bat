@@ -1,8 +1,8 @@
 @echo off
 
-set REPO=yourusername/your-repo-name
-set VENV_NAME=affinity_updater_env
-set SCRIPT_NAME=affinity_industry_updater.py
+set REPO=loolvc/affinity_classify
+set VENV_NAME=affinity_classify_env
+set SCRIPT_NAME=affinity_classify.py
 
 REM Check if Python is installed
 python --version >nul 2>&1
